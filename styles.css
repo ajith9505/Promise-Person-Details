@@ -1,0 +1,17 @@
+.container-fluid{
+    display : flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:grey;
+}
+
+.pagination button.active,.pagination button:hover{
+    background-color: coral;
+}
+
+@media(max-width : 400px){
+    .pagination button{
+        padding: 4px;
+    }
+}
